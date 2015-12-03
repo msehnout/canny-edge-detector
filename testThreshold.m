@@ -11,7 +11,5 @@ supressed = non_max_supression(Out, direc);
 low = 30;
 high = 80;
 thresholded = arrayfun(@(x)double_threshold(x,low,high), supressed);
-blobs = grassfire(thresholded);
-result = weak_edges_filter(blobs, thresholded);
 
-imwrite(mat2gray(result), 'canny.png');
+imwrite(mat2gray(thresholded), 'thresholded.png');
