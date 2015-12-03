@@ -22,7 +22,7 @@ function varargout = canny_gui(varargin)
 
 % Edit the above text to modify the response to help canny_gui
 
-% Last Modified by GUIDE v2.5 03-Dec-2015 17:41:07
+% Last Modified by GUIDE v2.5 04-Dec-2015 00:27:09
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -310,5 +310,3 @@ function edit_high_th_CreateFcn(hObject, eventdata, handles)
 if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
     set(hObject,'BackgroundColor','white');
 end
-
-

@@ -68,5 +68,7 @@ for i=1:r %vertical
     end
 end
 
+oImg = oImg./max(max(oImg));
+
 end
 
